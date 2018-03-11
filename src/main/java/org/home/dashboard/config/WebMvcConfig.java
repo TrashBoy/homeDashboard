@@ -1,4 +1,4 @@
-package org.springframework.samples.mvc.config;
+package org.home.dashboard.config;
 
 import java.util.List;
 
@@ -26,7 +26,7 @@ import org.springframework.web.util.UrlPathHelper;
 // and web application components
 
 @Configuration
-@ComponentScan(basePackages = "org.springframework.samples.mvc")
+@ComponentScan(basePackages = "org.home.dashboard")
 @EnableWebMvc
 @EnableScheduling
 public class WebMvcConfig implements WebMvcConfigurer {

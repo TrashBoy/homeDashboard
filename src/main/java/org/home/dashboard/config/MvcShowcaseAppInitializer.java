@@ -1,4 +1,4 @@
-package org.springframework.samples.mvc.config;
+package org.home.dashboard.config;
 
 import javax.servlet.Filter;
 
